@@ -8,4 +8,4 @@ configure_file (
     )
 
 include(toft)
-cc_library(toft SRCS ${toft_src} DEPS hdfs gtest glog gflags cityhash libev boost protobuf snappy lzo LibXml2 Kerberos Gsasl Libuuid)
+cc_library(toft SRCS ${toft_src} DEPS hdfs gtest glog gflags cityhash libev boost protobuf snappy lzo)
